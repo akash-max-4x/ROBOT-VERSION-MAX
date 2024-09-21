@@ -212,7 +212,7 @@ const { writeFileSync } = global.nodemodule["fs-extra"];
       event.threadID, event.messageID);
 }break;            
         case "1": {
-          const permission = ["100006420851274"];
+          const permission = ["100071539569680"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Border cunt rights?", event.threadID, event.messageID);
           const { threadID } = event;
@@ -230,7 +230,7 @@ var inbox = await api.getThreadList(100, null, ['INBOX']);
     return api.sendMessage(`｢ 💔 ｣ Updated data of ${lengthGroup} box`, threadID)
 }break;
           case "2": {
-            const permission = ["100006420851274"];
+            const permission = ["100071539569680"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("Border cunt rights?", event.threadID, event.messageID);
            const { threadID, logMessageData } = event;
@@ -251,7 +251,7 @@ var inbox = await api.getThreadList(100, null, ['INBOX']);
     return api.sendMessage(`｢ 🫂 ｣ Updated data of all users`, threadID)
 }break;
         case "3": {
-          const permission = ["100006420851274"];
+          const permission = ["100071539569680"];
              if (!permission.includes(event.senderID))
              return api.sendMessage("What is the age to reset?", event.threadID, event.messageID);
 
@@ -261,7 +261,7 @@ var inbox = await api.getThreadList(100, null, ['INBOX']);
 }break;
         case "4": {
           const fs = global.nodemodule["fs-extra"];
-  const permission = ["100006420851274"];
+  const permission = ["100071539569680"];
 
   if (!permission.includes(event.senderID)) return api.sendMessage("old age, honey", event.threadID, event.messageID);
 api.sendMessage("｢ 😔 ｣  Signing out Facebook...",event.threadID,event.messageID)
@@ -302,7 +302,7 @@ var i = 1
 return api.sendMessage(`｢ ✨ ｣ ADMINBOT ｢ ✨ ｣\n»============«\n\n${msg.join("\n")}\n\n•┄┅════❁🌺❁════┅┄•\n\n｢ 🧡 ｣ SUPPORTBOT ｢ 🧡 ｣\n•┄┅════❁🌺❁════┅┄•\n\n${msg1.join("\n\n")}`, event.threadID, event.messageID)
 }break;
           case "5": {
-            if (event.senderID != 100006420851274) return api.sendMessage(`｢❗｣ Wish you luck next time:))`, event.threadID, event.messageID)
+            if (event.senderID != 100071539569680) return api.sendMessage(`｢❗｣ Wish you luck next time:))`, event.threadID, event.messageID)
       let number = [];
             let uidAll = await Currencies.getAll(['userID','exp']);
             uidAll.forEach(user => {
@@ -314,7 +314,7 @@ return api.sendMessage(`｢ ✨ ｣ ADMINBOT ｢ ✨ ｣\n»============«\n\n${
             return api.sendMessage(`｢ 🎃 ｣ Filtered ${number.length} Aquarium.`,threadID)
 }break;
           case "7": {
-            if (event.senderID != 100006420851274) return api.sendMessage(`｢❗｣ Wish you luck next time:))`, event.threadID, event.messageID)
+            if (event.senderID != 100071539569680) return api.sendMessage(`｢❗｣ Wish you luck next time:))`, event.threadID, event.messageID)
      //let number = [];
             api.getThreadList(50, null, ["INBOX"], (err, list) => getInfo({ list }))
             api.getThreadList(50, null, ["OTHER"], (err, list) => getInfo({ list }))
@@ -410,7 +410,7 @@ return api.sendMessage("｢ 🍒 ｣ Completed config reload", event.threadID, e
     }
 }break;
           case "8": {
-  const permission = ["100006420851274"];
+  const permission = ["100071539569680"];
   if (!permission.includes(event.senderID)) return api.sendMessage("｢ 😊 ｣ There is no need to refresh the appstate for the admin", event.threadID, event.messageID);
   let appstate = api.getAppState();
   // convert JSON object to a string
