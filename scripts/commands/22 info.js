@@ -24,32 +24,26 @@ const time = process.uptime(),
     seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Manila").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://i.imgur.com/jfVTL4T.jpeg", 
+var link = ["https://i.postimg.cc/fTCfWqXM/Photoroom-20240914-090224.png", 
 
-            "https://i.imgur.com/jfVTL4T.jpeg", 
+            "", 
 
-            "https://i.imgur.com/jfVTL4T.jpeg",
+            "",
 
-            "https://i.imgur.com/jfVTL4T.jpeg"];
+            ""];
 
 var callback = () => api.sendMessage({body:`•—»✨𝐀𝐝𝐦𝐢𝐧 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺
  •┄┅════❁🌺❁════┅┄•
 
-𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : 𝐈𝐬𝐥𝐚𝐦𝐢𝐜𝐤 𝐂𝐲𝐛𝐞𝐫 𝐂𝐡𝐚𝐭
+𝐁𝐨𝐭 𝐍𝐚𝐦𝐞 : MAX ROBOT
 
 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧 : 1 𝐀d𝐦𝐢𝐧 𝐜𝐨𝐧𝐭𝐫𝐨𝐥 𝐓𝐡𝐢𝐬 𝐑𝐨𝐛𝐨𝐭
 
 •┄┅══❁CONCATET❁══┅┄• 
 
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐚𝐠𝐞 : https://www.facebook.com/profile.php?id=61550669852479
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : https://www.facebook.com/akash.black.hacker.bd
 
-𝐖𝐏 : wa.me/+880 1323850908
-𝐖𝐏 : wa.me/+880 1956454280
-𝐖𝐏 : wa.me/+880 19×××-×××3
-𝐖𝐏 : wa.me/+880 17×××-××××2
-𝐖𝐏 : wa.me/+880 18×××-××××8
-𝐖𝐏 : wa.me/+880 15×××-××××9
-𝐖𝐏 : wa.me/+880 18××-×××××7
+𝐖𝐏 : wa.me/+881980871152
 
 •┄┅═══❁🌺❁═══┅┄•\n🌺✨𝐎𝐭𝐡𝐞𝐫𝐬 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧✨🌺\n •┄┅═══❁🌺❁═══┅┄•
 
