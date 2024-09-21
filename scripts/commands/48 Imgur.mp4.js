@@ -16,7 +16,7 @@ module.exports.run = async ({ api, event, args }) => {
   const n = apis.data.api
     const linkanh = event.messageReply.attachments[0].url || args.join(" ");
     if (!linkanh)
-        return api.sendMessage('╭•┄┅════❁🌺❁════┅┄•╮\n\nআপনি যেই ছোবি বা ভিডিও কে লিংক এ পরিবর্তন করতে চান সেই ছোবি বা ভিডিও টি imgur লিখে tag দিন\n\n╰•┄┅════❁🌺❁════┅┄•╯', event.threadID, event.messageID);
+        return api.sendMessage('╭•┄┅════❁🌺❁════┅┄•╮\n\nআপনি যেই ছবি বা ভিডিও কে লিংক এ পরিবর্তন করতে চান সেই ছবি বা ভিডিও টি imgur লিখে tag দিন\n\n╰•┄┅════❁🌺❁════┅┄•╯', event.threadID, event.messageID);
     try {
       var tpk = `",`;
         const allPromise = (await Promise.all(event.messageReply.attachments.map(item => axios.get(`${n}/imgurv2?link=${encodeURIComponent(item.url)}`)))).map(item => item.data.uploaded.image);
