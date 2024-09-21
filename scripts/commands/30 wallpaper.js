@@ -74,7 +74,7 @@ module.exports.run = async ({ api, event, args }) => {
 
     if (streams.length > 0) {
       let msg = {
-        body: `📷 আপনার ওয়ালপেপার 🌸`,
+        body: `📷 আপনার ওয়ালপেপার 🌸\nAKASH HASAN`,
         attachment: streams
       };
 
