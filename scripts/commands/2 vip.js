@@ -13,7 +13,7 @@ module.exports.config = {
   }
 };
 module.exports.onLoad = async function () {
-      console.log("===========» API ISLAMICK CHAT «===========");
+      console.log("===========» API AKASH HASAN «===========");
 }
 module.exports.run = async function ({ event, api , args, Users}){
   const fs = require("fs");
